@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://googledrive-backend-xd4z.onrender.com"
+  baseURL: "https://googledrive-backend-xd4z.onrender.com/api"
 });
 
 // attach JWT token to every request
